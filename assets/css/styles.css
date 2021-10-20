@@ -1,0 +1,66 @@
+body {
+  background-color: #171717;
+  color: #FFFFFF;
+}
+
+.container {
+  margin: 40px 20px;
+  text-align: center;
+}
+.container .header h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  margin-bottom: 0;
+}
+.container .header p {
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.container .content {
+  width: 100%;
+  margin: 40px 0px;
+}
+.container .content .movie-list {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container .content .movie-list .item {
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  transition: 0.3s;
+  display: inline-block;
+}
+.container .content .movie-list .item img {
+  height: 300px;
+  border-radius: 4px;
+}
+.container .content .movie-list .item .title {
+  font-size: 18px;
+  text-align: start;
+  font-family: "Poppins", sans-serif;
+}
+.container .content .movie-list .item .genres {
+  font-size: 14px;
+  color: #eee;
+  margin: 0;
+  text-align: start;
+}
+.container .content .movie-list .item:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.container .footer {
+  height: 10px;
+  margin: 0px 50px;
+}
+.container .footer p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=styles.css.map */

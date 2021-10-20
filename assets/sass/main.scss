@@ -1,0 +1,82 @@
+$background-primary: #171717;
+$primary-text-color: #FFFFFF;
+$header-font: 'Poppins', sans-serif;
+$subtitle-font: 'Source Sans Pro', sans-serif;
+
+body {
+    background-color: $background-primary;
+    color: $primary-text-color;
+}
+
+.container {
+    margin: 40px 20px;
+    text-align: center;
+
+    .header {
+        h1 {
+            font-family: $header-font;
+            font-size: 26px;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: 14px;
+            font-family: $subtitle-font;
+        }
+    }
+
+    .content {
+        width: 100%;
+        margin: 40px 0px;
+    
+        .movie-list {
+            padding: 0px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+    
+            .item {
+                list-style: none;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 20px;
+                margin-bottom: 40px;
+                transition: 0.3s;
+                display: inline-block;
+
+                img {
+                    height: 300px;
+                    border-radius: 4px;
+                }
+
+                .title {
+                    font-size: 18px;
+                    text-align: start;
+                    font-family: $header-font;
+                }
+
+                .genres {
+                    font-size: 14px;
+                    color: #eee;
+                    margin: 0;
+                    text-align: start;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+    
+    .footer {
+        height: 10px;
+        margin: 0px 50px;
+    
+        p {
+            font-family: $subtitle-font;
+            font-size: 14px;
+        }
+    }
+}
