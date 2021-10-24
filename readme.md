@@ -14,3 +14,6 @@ Dibuat untuk menyelesaikan tugas yang diberikan oleh pembimbing dan pengajar di 
 
 * Search Result
 ![Search-Result](./assets/images/screenshots/search-result.png)
+
+### Sombong dikit
+Website ini bisa diakses di [netlify](https://nontonkuy.netlify.app) jangan lupa cek ya kakak-kakak, terima kasih
