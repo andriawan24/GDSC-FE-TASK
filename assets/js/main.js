@@ -9,7 +9,7 @@ const buildList = (data, search = "") => {
         console.log("Search ", data.find(o => o.title === search))
         newData = []
         data.forEach((movie, index) => {
-            if (movie.title.toLowerCase().includes(search)) {
+            if (movie.title.toLowerCase().includes(search.toLowerCase())) {
                 newData[newData.length] = movie
             }
         })
